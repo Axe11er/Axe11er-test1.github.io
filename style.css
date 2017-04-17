@@ -1,29 +1,46 @@
 body {
   margin: 0;
   padding: 0;
-  background-color:coral
+  background-color: coral;
 }
 
 .age {
-  display: flex;
-  max-width: 400px; 
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+/*  display: flex;*/
+/*  flex-basis: 400px; */
+  max-width: 500px;
+/*  flex-wrap: wrap;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
   font-size: 50px;
   font-family: fantasy;
+  margin: 30px auto;
+  text-align: center;
 }
 
 .click {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 250px;
+  text-align: center;
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  flex-basis: 400px;*/
+  height: 400px;
+  width: 400px;
   font-size: 35px;
   font-family: monospace;
   color: aqua;
   background: black;
   border-radius: 50%;
   cursor: pointer;
+  margin: 50px auto;
+  position: relative;
+
+}
+
+span {
+ width: 50%;
+  height: 20%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
